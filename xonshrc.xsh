@@ -1,9 +1,8 @@
 #!/usr/bin/env xonsh
 
-$PATH = $PATH + [ $XXH_HOME / 'plugins/xxh-plugin-autojump/build/autojump/bin' ]
-
-if not ($XXH_HOME / 'pip/xontrib/autojump.xsh').exists():
-    xontrib_autojump = $XXH_HOME / 'plugins/xxh-plugin-autojump/build/xontrib_autojump/xontrib'
-    bash -c $(echo cp @(str(xontrib_autojump)+'/*') @($XXH_HOME / 'pip/xontrib') )
-
+import sys
+plugin_path = pf"{__file__}".absolute().parent
+$PATH = $PATH + [ plugin_path / 'build/autojump/bin' ]
+xontrib_autojump = plugin_path / 'build/xontrib_autojump'
+sys.path.append(str(xontrib_autojump))
 xontrib load autojump
