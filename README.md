@@ -4,8 +4,8 @@
 Install:
 ```
 cd ~/.xxh/plugins \
-    && git clone --depth 1 https://github.com/xxh/xxh-plugin-autojump \
-    && xonsh xxh-plugin-autojump/build.xsh
+    && git clone --depth 1 https://github.com/xxh/xxh-plugin-xonsh-autojump \
+    && xonsh xxh-plugin-xonsh-autojump/build.xsh
     
 # connect once with updating host
 xxh yourhost +if
