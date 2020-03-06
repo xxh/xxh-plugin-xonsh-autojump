@@ -3,7 +3,7 @@
 
 Install:
 ```
-cd ~/.xxh/plugins \
+cd ~/.xxh/xxh/plugins \
     && git clone --depth 1 https://github.com/xxh/xxh-plugin-xonsh-autojump \
     && xonsh xxh-plugin-xonsh-autojump/build.xsh
     
