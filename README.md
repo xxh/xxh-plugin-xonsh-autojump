@@ -8,5 +8,5 @@ cd ~/.xxh/xxh/plugins \
     && xonsh xxh-plugin-xonsh-autojump/build.xsh
     
 # connect once with updating host
-xxh yourhost +if
+xxh yourhost +s xonsh +if
 ```
