@@ -10,7 +10,7 @@ From any repo:
 ```
 cd ~/.xxh/xxh/plugins \
     && git clone --depth 1 https://github.com/xxh/xxh-plugin-xonsh-autojump \
-    && xonsh xxh-plugin-xonsh-autojump/build.xsh
+    && xonsh xxh-plugin-xonsh-autojump/build.sh
     
 # connect once with updating host
 xxh yourhost +s xonsh +if
