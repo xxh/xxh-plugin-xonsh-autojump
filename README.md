@@ -3,7 +3,7 @@
 ## Install
 From xxh repo:
 ```
-xxhp i xxh-plugin-xonsh-autojump
+xxh +I xxh-plugin-xonsh-autojump
 xxh yourhost +s xonsh +if
 ```
 From any repo:
