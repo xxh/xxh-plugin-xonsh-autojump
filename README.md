@@ -8,9 +8,7 @@ xxh yourhost +s xonsh +if
 ```
 From any repo:
 ```
-cd ~/.xxh/xxh/plugins \
-    && git clone --depth 1 https://github.com/xxh/xxh-plugin-xonsh-autojump \
-    && xonsh xxh-plugin-xonsh-autojump/build.sh
+xxh +I xxh-plugin-xonsh-autojump+git+https://github.com/xxh/xxh-plugin-xonsh-autojump
     
 # connect once with updating host
 xxh yourhost +s xonsh +if
