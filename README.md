@@ -4,12 +4,12 @@
 From xxh repo:
 ```
 xxh +I xxh-plugin-xonsh-autojump
-xxh yourhost +s xonsh-appimage +if
+xxh yourhost +s xonsh +if
 ```
 From any repo:
 ```
 xxh +I xxh-plugin-xonsh-autojump+git+https://github.com/xxh/xxh-plugin-xonsh-autojump
     
 # connect once with updating host
-xxh yourhost +s xonsh-appimage +if
+xxh yourhost +s xonsh +if
 ```
