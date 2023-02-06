@@ -1,4 +1,4 @@
-#### Note! We recommend to try [xxh-plugin-prerun-zoxide](https://github.com/xxh/xxh-plugin-prerun-zoxide) instead of autojump because zoxide is more fresh and supported solution.
+#### Note! You can use [xontrib-jump-to-dir](https://github.com/anki-code/xontrib-jump-to-dir) as lightweight zero-dependency implementation of autojump or [xxh-plugin-prerun-zoxide](https://github.com/xxh/xxh-plugin-prerun-zoxide) projects functionality.
 
 [wting/autojump](https://github.com/wting/autojump) plugin for [xxh/xxh](https://github.com/xxh/xxh) based on [sagartewari01/autojump-xonsh](https://github.com/sagartewari01/autojump-xonsh)
 
